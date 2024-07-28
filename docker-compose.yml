@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: sujithsai/i-notes:1
+    container_name: i-notes-frontend
+    ports:
+      - "3000:3001"
+    depends_on:
+      - backend
+
+  backend:
+    image: sujithsai/i-notes-backend:1
+    container_name: i-notes-backend
+    ports:
+      - "5000:5000"
