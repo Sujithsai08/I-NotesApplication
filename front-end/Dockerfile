@@ -32,5 +32,5 @@ COPY --from=builder /app/node_modules /app/node_modules
 # Expose the application port
 EXPOSE 3001
 
-# Command to run the application
+
 CMD ["node_modules/.bin/serve", "-s", "build", "-l", "3001"]

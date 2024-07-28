@@ -15,7 +15,7 @@ spec:
         app: i-notes
     spec:
       containers:
-      - name: i-notes
+      - name: i-notes 
         image: sujithsai/i-notes:1
         ports:
         - containerPort: 3001

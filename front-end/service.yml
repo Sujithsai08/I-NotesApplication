@@ -10,4 +10,4 @@ spec:
     targetPort: 3001
     protocol: TCP
   selector:
-    app: i-notes
+    app: i-notes 

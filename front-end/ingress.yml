@@ -4,11 +4,11 @@ metadata:
   name: ingress-wildcard-host
 spec:
   rules:
-  - host: "foo.bar.com"
+  - host: "tanxfi.com"
     http:
       paths:
       - pathType: Prefix
-        path: "/bar"
+        path: "/assignment"
         backend:
           service:
             name: i-notes
